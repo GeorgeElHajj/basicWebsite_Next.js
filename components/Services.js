@@ -1,7 +1,7 @@
 export default function Services() {
     return (
-        <div className="flex flex-col items-center m-5 p-5 border border-gray-300 rounded-lg">
-            <h3 className="text-lg font-semibold bl mb-4">Services</h3>
+        <div className=" items-center m-5 p-5 border border-gray-300 rounded-lg">
+            <h3 className=" text-center text-lg font-semibold bl mb-4">Services</h3>
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
                 <div className="sm:m-4 m-0 border border-gray-300 rounded-md shadow-lg shadow-black box-border ">
                     <div className="image">
