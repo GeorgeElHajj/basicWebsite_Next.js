@@ -3,7 +3,7 @@ export default function ContactUs() {
         <div id="contact_us" className="m-5	p-5 border border-gray-300 rounded-lg p-4 text-center">
 
             <h3 className="text-lg font-semibold text-bl mb-4">Contact Us</h3>
-            <form action="#" method="post" className="flex flex-col items-center">
+            <form action="#" method="post" className="">
                 <label  className="text-gray-700">Name:</label>
                 <input type="text" id="name" name="name" required className="w-full border border-gray-300 rounded-md px-4 py-2 mt-1 focus:outline-none focus:border-blue-500" />
 

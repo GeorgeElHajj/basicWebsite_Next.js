@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Services from "@/components/Services";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
+import Dynamic from "@/components/Dynamic";
 
 
 export default function Page() {
@@ -12,6 +13,14 @@ export default function Page() {
       <Banner image={"banner.jpg"} text={"Welcome to my Webiste"} />
       <Services />
       <ContactUs />
+      <Dynamic  title="Test 1"
+        imageSrc={"service.jpg"}
+        description={"Description"}
+        titleClassName={"text-2xl font-semibold text-blue-500 mb-2"}
+        imageClassName={"h-48 w-full object-cover"}
+        descriptionClassName={"text-gray-600"}
+        containerClassName={"bg-white rounded-lg shadow-md overflow-hidden"}/>
+        
       <Footer />
     </>
   );
