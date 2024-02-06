@@ -13,9 +13,9 @@ export default function Footer() {
             </div>
 
             <div className="footer-bottom flex sm:flex-col flex-row">
-                <a href="#" className="mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i class="fa fa-facebook text-9xl	 m-2 hover:text-blue-500"></i></a>
-                <a href="#" className="social mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i class="fa fa-instagram text-9xl	 m-2 hover:text-blue-500"></i></a>
-                <a href="#" className="social mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i class="fa fa-twitter text-9xl	 m-2 hover:text-blue-500"></i></a>
+                <a href="#" className="mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i className="fa fa-facebook text-9xl	 m-2 hover:text-blue-500"></i></a>
+                <a href="#" className="social mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i className="fa fa-instagram text-9xl	 m-2 hover:text-blue-500"></i></a>
+                <a href="#" className="social mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i className="fa fa-twitter text-9xl	 m-2 hover:text-blue-500"></i></a>
             </div>
         </footer>
     );
