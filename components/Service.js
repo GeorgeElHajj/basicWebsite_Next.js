@@ -2,8 +2,8 @@ export default function Service({ image, service, description }) {
     return (
         <>
             <div className="sm:m-4 m-0 border border-gray-300 rounded-md shadow-lg shadow-black box-border ">
-                <div className="image">
-                    <img src={image} alt={service} className="w-full rounded-t-md" />
+                <div className="image flex justify-center align-middle">
+                    <img src={image} alt={service} className="w-6/12 rounded-t-md " />
                 </div>
                 <div className="text-center p-2.5">
                     <h1 className="sm:text-xl text-base font-semibold">{service}</h1>
