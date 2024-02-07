@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 import Dynamic from "@/components/Dynamic";
+import CheckBox from "@/components/checkBox";
 
 
 export default function Page() {
@@ -13,6 +14,7 @@ export default function Page() {
       <Banner image={"banner.jpg"} text={"Welcome to my Webiste"} />
       <Services />
       <ContactUs />
+      <CheckBox />
       <Dynamic  title="Test 1"
         imageSrc={"service.jpg"}
         description={"Description"}
