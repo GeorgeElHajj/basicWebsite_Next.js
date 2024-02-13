@@ -12,8 +12,8 @@ import 'swiper/css/scrollbar';
 
 export default function Services() {
     return (
-        <div className=" 2xl:container mx-auto  m-5 p-5  rounded-lg">
-            <h3 className=" text-center text-lg font-semibold bl mb-4">Services</h3>
+        <div className=" 2xl:container mx-auto  m-5 p-5  ">
+            <h3 className=" text-center text-lg font-semibold  mb-4">Services</h3>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={20}

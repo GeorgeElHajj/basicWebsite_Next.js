@@ -1,6 +1,7 @@
 export default function Footer() {
     return (
-        <footer className="2xl:container mx-auto  flex sm:flex-row flex-col justify-around items-center bg-gray-900 text-white p-5 ">
+        <div className="bg-gray-900">
+        <footer className="2xl:container mx-auto  flex sm:flex-row flex-col justify-around items-center text-white p-5 ">
             <div className=" sm:text-left text-center">
             <h3 className="text-white text-3xl mb-6">USEFUL LINKS</h3>
             <a href="#" className="text-white block mb-4 text-lg transition-colors duration-300 ease-in-out hover:text-cyan-500">Home</a>
@@ -18,5 +19,6 @@ export default function Footer() {
                 <a href="#" className="social mx-4 text-lg text-white transition-colors duration-300 ease-in-out justify-between"> <i className="fa fa-twitter text-9xl	 m-2 hover:text-blue-500"></i></a>
             </div>
         </footer>
+        </div>
     );
 }
