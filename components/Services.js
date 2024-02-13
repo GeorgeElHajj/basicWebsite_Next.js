@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar';
 
 export default function Services() {
     return (
-        <div className=" m-5 p-5  rounded-lg">
+        <div className=" container mx-auto 2xl:max-w-7xl m-5 p-5  rounded-lg">
             <h3 className=" text-center text-lg font-semibold bl mb-4">Services</h3>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

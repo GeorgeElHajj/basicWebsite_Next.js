@@ -11,7 +11,9 @@ const router= usePathname();
     }
 
     return (
-        <header className="fixed top-0	w-full	z-10 bg-bl p-4 text-center	flex justify-between items-center ">
+        
+        <header className=" fixed top-0	w-full z-10 bg-bl p-4   ">
+            <div className="container mx-auto 2xl:max-w-7xl text-center	flex justify-between items-center">
             <Link href="/"><img src="/logo.png" alt="Logo" className="w-16 h-auto " /></Link>
             <nav className="grow " >
             <ul className={!burgerBtn ? "hidden sm:flex text-white items-center justify-center p-0 list-none sm:static  sm:flex-row sm:inset-0 "
@@ -24,6 +26,8 @@ const router= usePathname();
             <a href="#" className="icon block sm:hidden text-white text-xl mr-4" onClick={handleClick} >
             {burgerBtn ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
             </a>
+            </div>
         </header>
+       
     );
 }

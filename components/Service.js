@@ -1,7 +1,7 @@
 export default function Service({ image, service, description }) {
     return (
         <>
-            <div className="sm:m-4 m-0 border border-gray-300 rounded-md shadow-lg shadow-black box-border ">
+            <div className="container mx-auto 2xl:max-w-7xl sm:m-4 m-0 border border-gray-300 rounded-md shadow-lg shadow-black box-border ">
                 <div className="image flex justify-center align-middle">
                     <img src={image} alt={service} className="w-1/4 rounded-t-md " />
                 </div>
@@ -10,7 +10,7 @@ export default function Service({ image, service, description }) {
                 </div>
                 <div className="p-1 text-center rounded-t-md pt-2.5 text-base">
                     <p>{description}</p>
-                    <button className="sm:mt-6 mt-3.5 mb-6 text-white bg-slate-500	 border border-black rounded-md sm:p-2.5 p-1.5 px-4 py-2 transition-colors duration-500 ease-in-out hover:bg-black hover:text-white hover:cursor-pointer">Read More...</button>
+                    <button className="sm:mt-6 mt-3.5 mb-6 text-black bg-slate-500	 border border-black rounded-md sm:p-2.5 p-1.5 px-4 py-2 transition-colors duration-500 ease-in-out hover:bg-black hover:text-white hover:cursor-pointer">Read More...</button>
                 </div>
             </div>
 

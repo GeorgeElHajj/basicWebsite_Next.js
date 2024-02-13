@@ -23,16 +23,16 @@ export function MyAccordion() {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
     return (
-        <>
-            <Accordion open={open === 1} icon={<Icon id={1} open={open} />} disabled>
+        <div className="pr-5 pl-5 container mx-auto 2xl:max-w-7xl">
+            <Accordion open={open === 1} icon={<Icon id={1} open={open} />} >
                 <AccordionHeader onClick={() => handleOpen(1)}>Section 1</AccordionHeader>
                 <AccordionBody>
                     <p>This is the first section in the Accordion, but it was disabled</p>
                 </AccordionBody>
             </Accordion>
-            <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className="bg-black text-center ">
-                <AccordionHeader onClick={() => handleOpen(2)} className="text-white">Section 2</AccordionHeader>
-                <AccordionBody className="text-2xl">
+            <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className=" text-center ">
+                <AccordionHeader onClick={() => handleOpen(2)}>Section 2</AccordionHeader>
+                <AccordionBody className="text-2xl bg-black text-white">
                     <p>This is section  number two.</p>
                 </AccordionBody>
             </Accordion>
@@ -44,6 +44,6 @@ export function MyAccordion() {
                    <p>This is section number three</p>
                 </AccordionBody>
             </Accordion>
-        </>
+        </div>
     );
 }
