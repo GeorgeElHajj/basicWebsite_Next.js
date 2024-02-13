@@ -1,6 +1,6 @@
 export default function ContactUs() {
     return (
-        <div id="contact_us" className=" m-5	container mx-auto 2xl:max-w-7xl p-5 border border-gray-300 rounded-lg p-4 text-center">
+        <div id="contact_us" className=" m-5	2xl:container mx-auto  p-5 border border-gray-300 rounded-lg p-4 text-center">
 
             <h3 className="text-lg font-semibold text-bl mb-4">Contact Us</h3>
             <form action="#" method="post" className="">

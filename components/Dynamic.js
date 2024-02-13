@@ -1,6 +1,6 @@
 export default function Dynamic({ title, imageSrc, description, titleClassName, imageClassName, descriptionClassName, containerClassName }) {
     return (
-        <div className={`${containerClassName} bg-black p-6 container mx-auto 2xl:max-w-7xl`}>
+        <div className={`${containerClassName} bg-black p-6 2xl:container mx-auto `}>
             <img className={imageClassName} src={imageSrc} alt="Image" />
             <div className="p-6">
                 <h2 className={titleClassName}>{title}</h2>

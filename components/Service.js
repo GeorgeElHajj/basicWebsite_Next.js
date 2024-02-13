@@ -1,7 +1,7 @@
 export default function Service({ image, service, description }) {
     return (
         <>
-            <div className="container mx-auto 2xl:max-w-7xl sm:m-4 m-0 border border-gray-300 rounded-md shadow-lg shadow-black box-border ">
+            <div className="2xl:container mx-auto  sm:m-4 m-0 border border-gray-300 rounded-md shadow-lg shadow-black box-border ">
                 <div className="image flex justify-center align-middle">
                     <img src={image} alt={service} className="w-1/4 rounded-t-md " />
                 </div>

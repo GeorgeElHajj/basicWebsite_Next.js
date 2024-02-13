@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="container mx-auto 2xl:max-w-7xl flex sm:flex-row flex-col justify-around items-center bg-gray-900 text-white p-5 ">
+        <footer className="2xl:container mx-auto  flex sm:flex-row flex-col justify-around items-center bg-gray-900 text-white p-5 ">
             <div className=" sm:text-left text-center">
             <h3 className="text-white text-3xl mb-6">USEFUL LINKS</h3>
             <a href="#" className="text-white block mb-4 text-lg transition-colors duration-300 ease-in-out hover:text-cyan-500">Home</a>

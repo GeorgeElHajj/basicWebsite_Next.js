@@ -19,7 +19,7 @@ export default function CheckBox() {
   }
 
   return (
-    <div className="container  2xl:max-w-7xl max-w-md mx-auto p-4 rounded-md shadow-md text-center">     
+    <div className="2xl:container   max-w-md mx-auto p-4 rounded-md shadow-md text-center">     
 
       <h2 className="text-lg font-semibold mb-4 ">What are your hobbies?</h2>
       <form >

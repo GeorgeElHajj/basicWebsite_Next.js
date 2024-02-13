@@ -23,7 +23,7 @@ export function MyAccordion() {
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
     return (
-        <div className="pr-5 pl-5 container mx-auto 2xl:max-w-7xl">
+        <div className="pr-5 pl-5 2xl:container mx-auto ">
             <Accordion open={open === 1} icon={<Icon id={1} open={open} />} >
                 <AccordionHeader onClick={() => handleOpen(1)}>Section 1</AccordionHeader>
                 <AccordionBody>
