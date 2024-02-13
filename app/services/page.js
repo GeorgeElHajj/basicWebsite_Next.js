@@ -15,7 +15,7 @@ export default function Services(){
         titleClassName={"text-2xl font-semibold text-green-500 mb-2"}
         imageClassName={"h-40 w-40 object-cover  mr-4"}
         descriptionClassName={"text-gray-700"}
-        containerClassName={"bg-white rounded-lg shadow-md  p-4"}
+        containerClassName={" rounded-lg shadow-md  p-4"}
       />
         <Footer />
         </>

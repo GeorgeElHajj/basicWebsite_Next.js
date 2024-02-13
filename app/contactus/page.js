@@ -15,7 +15,7 @@ export default function ContactUs(){
         titleClassName={"text-xl text-center font-semibold text-purple-500 mb-2"}
         imageClassName={"h-48 w-full object-cover"}
         descriptionClassName={"text-gray-700 text-center"}
-        containerClassName={"bg-white rounded-lg shadow-md  p-4"}
+        containerClassName={" rounded-lg shadow-md  p-4"}
       />
         <Footer />
         </>
